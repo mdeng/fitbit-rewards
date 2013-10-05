@@ -1,0 +1,6 @@
+venv
+*.py[co]
+*.swp
+*#
+*~
+.DS_Store
