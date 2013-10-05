@@ -1,0 +1,14 @@
+from tastypie.resources import ModelResource
+from tracker.models import *
+from tastypie import fields
+
+class UserProfileResource(ModlleResource):
+    class Meta:
+        queryset = UserProfile.objects.all()
+        resource_name = 'user_profile'
+
+class GoalResource(ModelResource):
+    lines = fields.ToManyField(".BusLineResource","user_profile",full=True)
+    class Meta:
+        queryset = Goal.objects.all()
+        resource_name = 'goal'

@@ -1,0 +1,133 @@
+{% load static from staticfiles %}
+{% load i18n %}
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    
+    <title>{% block head_title %}Hacksy{% endblock %}</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="all">
+    <meta name="author" content="Antoine Balaresque, Henry Bradlow">
+    {% block metas %}
+    <meta name="description" content="Share your hacks with the world. Hacksy is a platform that lets hackers showcase and promote their hacks.">
+    <meta name="keywords" content="hacks, hackers, hack, post a hack, share hacks, hackathons">
+    {% endblock %}
+
+    <!-- Facebook -->
+    {% block facebook_meta %}
+        <meta property="fb:app_id"          content="632049786821596" /> 
+        <meta property="og:url"             content="http://www.hacksy.com" /> 
+        <meta property="og:title"           content="Hacksy" /> 
+    {% endblock %}
+    {% block facebook_image %}
+        <meta property="og:image"           content="https://s3.amazonaws.com/hacksy/facebook_logo/fb_icon2.png" />
+    {% endblock %}
+    
+    {% block style_base %}
+    <link rel="shortcut icon" href="{% static "assets/images/favicon3.png" %}" />
+    <link href="{% static 'bootstrap/docs/assets/css/bootstrap.css' %}" rel="stylesheet">
+    <link href="{% static 'bootstrap/docs/assets/css/bootstrap-responsive.css' %}" rel="stylesheet">
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+    <link href="{% static 'css/main.css' %}" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+    {% endblock %}
+    {% block extra_style %}{% endblock %}
+
+    {% block extra_head_base %}
+		{% block extra_head %}{% endblock %}
+	{% endblock %}
+    
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{% static 'bootstrap/docs/assets/ico/apple-touch-icon-144-precomposed.png' %}">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{% static 'bootstrap/docs/assets/ico/apple-touch-icon-114-precomposed.png' %}">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{% static 'bootstrap/docs/assets/ico/apple-touch-icon-72-precomposed.png' %}">
+    <link rel="apple-touch-icon-precomposed" href="{% static 'bootstrap/docs/assets/ico/apple-touch-icon-57-precomposed.png' %}">
+  
+    <!-- Google Web Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Permanent+Marker|Ropa+Sans|Open+Sans|Geo' rel='stylesheet' type='text/css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    
+  </head>
+
+  <body class="{% block body_class %}{% endblock %}" id="{% block body_id %}{% endblock %}">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=632049786821596";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <div id="wrap">
+
+	{% block topbar_base %}
+		{# include "_account_bar.html" #}
+	{% endblock %}
+
+	{% block body_base %}
+		{% include "_messages.html" %}
+        <div class="content">
+		{% block body %}
+		{% endblock %}
+        </div>
+	{% endblock %}
+    <div id="push"></div>
+    </div>
+	
+    {% block footer_base %}
+		{% include "_footer.html" %}
+	{% endblock %}
+	{% block extra_body_base %}
+		{% block extra_body %}{% endblock %}
+	{% endblock %}
+
+
+    {% block script_base %}
+    <!-- Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+	<script src="{% static 'bootstrap/docs/assets/js/bootstrap-transition.js' %}"></script>
+    <script src="{% static 'bootstrap/docs/assets/js/bootstrap-alert.js' %}"></script>
+    <script src="{% static 'bootstrap/docs/assets/js/bootstrap-modal.js' %}"></script>
+    <script src="{% static 'bootstrap/docs/assets/js/bootstrap-dropdown.js' %}"></script>
+    <script src="{% static 'bootstrap/docs/assets/js/bootstrap-scrollspy.js' %}"></script>
+    <script src="{% static 'bootstrap/docs/assets/js/bootstrap-tab.js' %}"></script>
+    <script src="{% static 'bootstrap/docs/assets/js/bootstrap-tooltip.js' %}"></script>
+    <script src="{% static 'bootstrap/docs/assets/js/bootstrap-popover.js' %}"></script>
+    <script src="{% static 'bootstrap/docs/assets/js/bootstrap-button.js' %}"></script>
+    <script src="{% static 'bootstrap/docs/assets/js/bootstrap-collapse.js' %}"></script>
+    <script src="{% static 'bootstrap/docs/assets/js/bootstrap-carousel.js' %}"></script>
+    <script src="{% static 'bootstrap/js/bootstrap-typeahead.js' %}"></script>
+    <script src="{% static 'bootstrap/docs/assets/js/holder/holder.js' %}"></script>
+    <!-- hover_dropdown -->
+    <script src="{% static 'lib/hover_dropdown/twitter-bootstrap-hover-dropdown.js' %}"></script>
+    <!-- autosize -->
+    <script src="{% static 'lib/autosize/jquery.autosize.js' %}"></script>
+
+   <script type="text/javascript"> 
+    (function(){ 
+    var node = document.createElement("script"); 
+    node.setAttribute("type", "text/javascript"); 
+    node.setAttribute("src", "https://app.bugmuncher.com/js/bugMuncher.min.js"); 
+    document.getElementsByTagName("head")[0].appendChild(node); 
+    })();
+    var bugmuncher_options = {
+        language:'en',
+        position:'right',
+        show_intro:true,
+        show_preview:true,
+        label_text:'Feedback',
+        api_key:'7ffcd213d8bb6614b17fbae204cb1cf8940e9200'
+        };
+    </script> 
+    {% endblock %}{% block extra_script %}{% endblock %}
+
+  </body>
+</html>

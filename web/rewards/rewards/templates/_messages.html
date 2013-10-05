@@ -1,0 +1,43 @@
+<div id="messages">
+    {% for message in messages %}
+        <div class="message">
+            <span style="centered">{{message|safe}}</span>
+            <a href="#" class="close" style="margin-right:20px;">&times;</a>
+        </div>
+    {% endfor %}
+</div>
+
+<style type="text/css">
+#messages {
+	margin-top: 42px;
+}
+.message {
+	text-align: center;
+	background-color: #666;
+	min-height: 40px;
+	color: orange;
+	padding-top: 20px;
+    padding-bottom:0px;
+}
+
+@media all and (max-width: 1065px) and (min-width: 600px) {
+    #messages {
+        margin-top: 82px;
+    }
+}
+@media all and (max-width: 599px) and (min-width: 1px) {
+    #messages {
+        margin-top: 162px;
+    }
+}
+
+
+</style>
+
+<script type="text/javascript">
+    $(window).load(function() {
+        $('.close').click(function() {
+        	$('#messages').fadeOut();
+        });
+    });
+</script>
