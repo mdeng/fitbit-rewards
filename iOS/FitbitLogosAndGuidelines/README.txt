@@ -1,0 +1,1 @@
+These assets are provided as a courtesy to third-party developers using the Fitbit API <https://dev.fitbit.com/>. By using these assets, you agree to the Fitbit Trademark Guidelines <https://dev.fitbit.com/trademark>.

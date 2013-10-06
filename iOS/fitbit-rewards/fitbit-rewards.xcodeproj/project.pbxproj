@@ -13,14 +13,27 @@
 		4DCE64C818008CE300DB3F98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE64C618008CE300DB3F98 /* InfoPlist.strings */; };
 		4DCE64CA18008CE300DB3F98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE64C918008CE300DB3F98 /* main.m */; };
 		4DCE64CE18008CE300DB3F98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE64CD18008CE300DB3F98 /* AppDelegate.m */; };
-		4DCE64D118008CE300DB3F98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE64CF18008CE300DB3F98 /* Main.storyboard */; };
-		4DCE64D418008CE300DB3F98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE64D318008CE300DB3F98 /* ViewController.m */; };
 		4DCE64D618008CE300DB3F98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE64D518008CE300DB3F98 /* Images.xcassets */; };
 		4DCE64DD18008CE300DB3F98 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DCE64DC18008CE300DB3F98 /* XCTest.framework */; };
 		4DCE64DE18008CE300DB3F98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DCE64BD18008CE300DB3F98 /* Foundation.framework */; };
 		4DCE64DF18008CE300DB3F98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DCE64C118008CE300DB3F98 /* UIKit.framework */; };
 		4DCE64E718008CE300DB3F98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE64E518008CE300DB3F98 /* InfoPlist.strings */; };
 		4DCE64E918008CE300DB3F98 /* fitbit_rewardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE64E818008CE300DB3F98 /* fitbit_rewardsTests.m */; };
+		4DCE64F51800A98200DB3F98 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE64F31800A98200DB3F98 /* LoginViewController.m */; };
+		4DCE64F61800A98200DB3F98 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE64F41800A98200DB3F98 /* LoginViewController.xib */; };
+		4DCE64FA1800AC6900DB3F98 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE64F81800AC6900DB3F98 /* MainViewController.m */; };
+		4DCE64FB1800AC6900DB3F98 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE64F91800AC6900DB3F98 /* MainViewController.xib */; };
+		4DCE64FD1800AD2600DB3F98 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DCE64FC1800AD2600DB3F98 /* FacebookSDK.framework */; };
+		4DEBF7FB18010AF8003DBA06 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEBF7F918010AF8003DBA06 /* FriendsViewController.m */; };
+		4DEBF7FC18010AF8003DBA06 /* FriendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DEBF7FA18010AF8003DBA06 /* FriendsViewController.xib */; };
+		4DEBF80018010B1B003DBA06 /* GiftsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEBF7FE18010B1B003DBA06 /* GiftsViewController.m */; };
+		4DEBF80118010B1B003DBA06 /* GiftsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DEBF7FF18010B1B003DBA06 /* GiftsViewController.xib */; };
+		4DEBF80518010B35003DBA06 /* PlusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEBF80318010B35003DBA06 /* PlusViewController.m */; };
+		4DEBF80618010B35003DBA06 /* PlusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DEBF80418010B35003DBA06 /* PlusViewController.xib */; };
+		4DEBF80818010F7B003DBA06 /* friends-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DEBF80718010F7B003DBA06 /* friends-white.png */; };
+		4DEBF80A18010F86003DBA06 /* gift-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DEBF80918010F86003DBA06 /* gift-white.png */; };
+		4DEBF80C18010F90003DBA06 /* me-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DEBF80B18010F90003DBA06 /* me-white.png */; };
+		4DEBF80E18010F99003DBA06 /* plus-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DEBF80D18010F99003DBA06 /* plus-white.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +57,32 @@
 		4DCE64CB18008CE300DB3F98 /* fitbit-rewards-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fitbit-rewards-Prefix.pch"; sourceTree = "<group>"; };
 		4DCE64CC18008CE300DB3F98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4DCE64CD18008CE300DB3F98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4DCE64D018008CE300DB3F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4DCE64D218008CE300DB3F98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4DCE64D318008CE300DB3F98 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4DCE64D518008CE300DB3F98 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4DCE64DB18008CE300DB3F98 /* fitbit-rewardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fitbit-rewardsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DCE64DC18008CE300DB3F98 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4DCE64E418008CE300DB3F98 /* fitbit-rewardsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fitbit-rewardsTests-Info.plist"; sourceTree = "<group>"; };
 		4DCE64E618008CE300DB3F98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4DCE64E818008CE300DB3F98 /* fitbit_rewardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fitbit_rewardsTests.m; sourceTree = "<group>"; };
+		4DCE64F21800A98200DB3F98 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		4DCE64F31800A98200DB3F98 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		4DCE64F41800A98200DB3F98 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		4DCE64F71800AC6900DB3F98 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4DCE64F81800AC6900DB3F98 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4DCE64F91800AC6900DB3F98 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		4DCE64FC1800AD2600DB3F98 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		4DEBF7F818010AF8003DBA06 /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		4DEBF7F918010AF8003DBA06 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		4DEBF7FA18010AF8003DBA06 /* FriendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendsViewController.xib; sourceTree = "<group>"; };
+		4DEBF7FD18010B1B003DBA06 /* GiftsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiftsViewController.h; sourceTree = "<group>"; };
+		4DEBF7FE18010B1B003DBA06 /* GiftsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiftsViewController.m; sourceTree = "<group>"; };
+		4DEBF7FF18010B1B003DBA06 /* GiftsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GiftsViewController.xib; sourceTree = "<group>"; };
+		4DEBF80218010B35003DBA06 /* PlusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlusViewController.h; sourceTree = "<group>"; };
+		4DEBF80318010B35003DBA06 /* PlusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlusViewController.m; sourceTree = "<group>"; };
+		4DEBF80418010B35003DBA06 /* PlusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlusViewController.xib; sourceTree = "<group>"; };
+		4DEBF80718010F7B003DBA06 /* friends-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friends-white.png"; sourceTree = "<group>"; };
+		4DEBF80918010F86003DBA06 /* gift-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gift-white.png"; sourceTree = "<group>"; };
+		4DEBF80B18010F90003DBA06 /* me-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me-white.png"; sourceTree = "<group>"; };
+		4DEBF80D18010F99003DBA06 /* plus-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus-white.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DCE64FD1800AD2600DB3F98 /* FacebookSDK.framework in Frameworks */,
 				4DCE64C018008CE300DB3F98 /* CoreGraphics.framework in Frameworks */,
 				4DCE64C218008CE300DB3F98 /* UIKit.framework in Frameworks */,
 				4DCE64BE18008CE300DB3F98 /* Foundation.framework in Frameworks */,
@@ -101,6 +132,7 @@
 		4DCE64BC18008CE300DB3F98 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4DCE64FC1800AD2600DB3F98 /* FacebookSDK.framework */,
 				4DCE64BD18008CE300DB3F98 /* Foundation.framework */,
 				4DCE64BF18008CE300DB3F98 /* CoreGraphics.framework */,
 				4DCE64C118008CE300DB3F98 /* UIKit.framework */,
@@ -114,9 +146,21 @@
 			children = (
 				4DCE64CC18008CE300DB3F98 /* AppDelegate.h */,
 				4DCE64CD18008CE300DB3F98 /* AppDelegate.m */,
-				4DCE64CF18008CE300DB3F98 /* Main.storyboard */,
-				4DCE64D218008CE300DB3F98 /* ViewController.h */,
-				4DCE64D318008CE300DB3F98 /* ViewController.m */,
+				4DCE64F71800AC6900DB3F98 /* MainViewController.h */,
+				4DCE64F81800AC6900DB3F98 /* MainViewController.m */,
+				4DCE64F91800AC6900DB3F98 /* MainViewController.xib */,
+				4DEBF7F818010AF8003DBA06 /* FriendsViewController.h */,
+				4DEBF7F918010AF8003DBA06 /* FriendsViewController.m */,
+				4DEBF7FA18010AF8003DBA06 /* FriendsViewController.xib */,
+				4DEBF7FD18010B1B003DBA06 /* GiftsViewController.h */,
+				4DEBF7FE18010B1B003DBA06 /* GiftsViewController.m */,
+				4DEBF7FF18010B1B003DBA06 /* GiftsViewController.xib */,
+				4DEBF80218010B35003DBA06 /* PlusViewController.h */,
+				4DEBF80318010B35003DBA06 /* PlusViewController.m */,
+				4DEBF80418010B35003DBA06 /* PlusViewController.xib */,
+				4DCE64F21800A98200DB3F98 /* LoginViewController.h */,
+				4DCE64F31800A98200DB3F98 /* LoginViewController.m */,
+				4DCE64F41800A98200DB3F98 /* LoginViewController.xib */,
 				4DCE64D518008CE300DB3F98 /* Images.xcassets */,
 				4DCE64C418008CE300DB3F98 /* Supporting Files */,
 			);
@@ -130,6 +174,10 @@
 				4DCE64C618008CE300DB3F98 /* InfoPlist.strings */,
 				4DCE64C918008CE300DB3F98 /* main.m */,
 				4DCE64CB18008CE300DB3F98 /* fitbit-rewards-Prefix.pch */,
+				4DEBF80B18010F90003DBA06 /* me-white.png */,
+				4DEBF80718010F7B003DBA06 /* friends-white.png */,
+				4DEBF80918010F86003DBA06 /* gift-white.png */,
+				4DEBF80D18010F99003DBA06 /* plus-white.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -228,9 +276,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DCE64FB1800AC6900DB3F98 /* MainViewController.xib in Resources */,
+				4DEBF80E18010F99003DBA06 /* plus-white.png in Resources */,
+				4DEBF7FC18010AF8003DBA06 /* FriendsViewController.xib in Resources */,
+				4DEBF80A18010F86003DBA06 /* gift-white.png in Resources */,
+				4DEBF80C18010F90003DBA06 /* me-white.png in Resources */,
+				4DCE64F61800A98200DB3F98 /* LoginViewController.xib in Resources */,
 				4DCE64D618008CE300DB3F98 /* Images.xcassets in Resources */,
+				4DEBF80618010B35003DBA06 /* PlusViewController.xib in Resources */,
+				4DEBF80818010F7B003DBA06 /* friends-white.png in Resources */,
+				4DEBF80118010B1B003DBA06 /* GiftsViewController.xib in Resources */,
 				4DCE64C818008CE300DB3F98 /* InfoPlist.strings in Resources */,
-				4DCE64D118008CE300DB3F98 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +305,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DCE64D418008CE300DB3F98 /* ViewController.m in Sources */,
+				4DEBF80018010B1B003DBA06 /* GiftsViewController.m in Sources */,
+				4DEBF80518010B35003DBA06 /* PlusViewController.m in Sources */,
+				4DEBF7FB18010AF8003DBA06 /* FriendsViewController.m in Sources */,
+				4DCE64F51800A98200DB3F98 /* LoginViewController.m in Sources */,
 				4DCE64CE18008CE300DB3F98 /* AppDelegate.m in Sources */,
+				4DCE64FA1800AC6900DB3F98 /* MainViewController.m in Sources */,
 				4DCE64CA18008CE300DB3F98 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,14 +340,6 @@
 				4DCE64C718008CE300DB3F98 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4DCE64CF18008CE300DB3F98 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4DCE64D018008CE300DB3F98 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		4DCE64E518008CE300DB3F98 /* InfoPlist.strings */ = {
@@ -378,6 +430,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/rhedshi/Desktop/HackMIT/fitbit-rewards/iOS/fitbit-rewards/FacebookSDK",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fitbit-rewards/fitbit-rewards-Prefix.pch";
 				INFOPLIST_FILE = "fitbit-rewards/fitbit-rewards-Info.plist";
@@ -391,6 +447,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/rhedshi/Desktop/HackMIT/fitbit-rewards/iOS/fitbit-rewards/FacebookSDK",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fitbit-rewards/fitbit-rewards-Prefix.pch";
 				INFOPLIST_FILE = "fitbit-rewards/fitbit-rewards-Info.plist";
@@ -460,6 +520,7 @@
 				4DCE64EE18008CE300DB3F98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DCE64EF18008CE300DB3F98 /* Build configuration list for PBXNativeTarget "fitbit-rewardsTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +529,7 @@
 				4DCE64F118008CE300DB3F98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

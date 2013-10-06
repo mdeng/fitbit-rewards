@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>123AFE80-49C8-40C9-B7AA-005AD7F72663</string>
+	<key>IDESourceControlProjectName</key>
+	<string>fitbit-rewards</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>704B6D40-826C-4E0F-8E7D-BABA72DCE755</key>
+		<string>https://github.com/mdeng/fitbit-rewards.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/fitbit-rewards/fitbit-rewards.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>704B6D40-826C-4E0F-8E7D-BABA72DCE755</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mdeng/fitbit-rewards.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>704B6D40-826C-4E0F-8E7D-BABA72DCE755</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>704B6D40-826C-4E0F-8E7D-BABA72DCE755</string>
+			<key>IDESourceControlWCCName</key>
+			<string>fitbit-rewards</string>
+		</dict>
+	</array>
+</dict>
+</plist>
